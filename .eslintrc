@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "extends": "adambrgmn",
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "plugins": ["babel", "import", "jsx-a11y", "react"]
+}
