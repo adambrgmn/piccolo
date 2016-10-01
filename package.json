@@ -1,0 +1,41 @@
+{
+  "name": "piccolo",
+  "version": "0.0.0",
+  "description": "A thin NodeJS wrapper around Denon's Hi-Fi Remote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adambrgmn/piccolo.git"
+  },
+  "author": "Adam Bergman <adam@fransvilhelm.com> (http://fransvilhelm.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adambrgmn/piccolo/issues"
+  },
+  "homepage": "https://github.com/adambrgmn/piccolo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-config-adambrgmn": "^0.1.4",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.7.0",
+    "eslint-config-adambrgmn": "^0.3.2",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "dependencies": {
+    "es6-promise": "^4.0.3",
+    "isomorphic-fetch": "^2.2.1",
+    "xml": "^1.0.1",
+    "xml2js": "^0.4.17"
+  }
+}
