@@ -1,0 +1,35 @@
+{
+  "PW": ["ON", "STANDBY", "?"],
+  "MV": ["UP", "DOWN", "**",  "?"],
+  "MU": ["ON", "OFF", "?"],
+  "SI": [
+    "IRADIO", "SERVER", "LASTFM", "SPOTIFY",
+    "PANDORA", "SIRIUSXM", "IPOD", "USB",
+    "AUXA", "AUXB", "AUXC". "AUXD",
+    "PORTABLE_IN", "CD", "FM", "DAB",
+    "?"
+  ],
+  "SLP": ["OFF", "***", "?"],
+  "PI": ["CONECT?"],
+  "TS": [
+    "ONCE @**##-@$$%% [F] [N] VV [O]",
+    "EVERY @**##-@$$%% [F] [N] VV [O]",
+    "?"
+  ],
+  "TO": ["OFF OFF", "OFF ON", "ON OFF", "ON ON", "?"],
+  "CLK": [],
+  "PS": [
+    "BAS UP", "BAS DOWN", "BAS **", "BAS ?",
+    "TRE UP", "TRE DOWN", "TRE **", "TRE ?",
+    "BAL LEFT", "BAL RIGHT", "BAL **", "BAL ?",
+    "SDB ON", "SDB OFF", "SDB ?",
+    "SDI ON", "SDI OFF", "SDI ?"
+  ],
+  "FV": ["**", "?", "MEM **", "DEL **"],
+  "MN": ["CUP", "CDN", "CRT", "ENT", "FAV ON", "FAV OFF"],
+  "TF": ["ANUP", "ANDOWN", "AN******", "AN?"],
+  "TP": ["ANUP", "ANDOWN", "AN**", "AN?", "ANMEM**"],
+  "TM": ["ANAM", "ANFM", "?", "ANAUTO", "ANMANUAL"],
+  "TF": ["DAUP", "DADOWN", "DA***", "DA?"]
+  "TM": ["DA"]
+}
