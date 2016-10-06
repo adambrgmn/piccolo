@@ -1,6 +1,6 @@
 import { createServer } from 'net';
 
-export default function mockServer(port = 3000, address = '127.0.0.1', command) {
+export default function mockServer(port = 3000, address = 'localhost', command) {
   const server = createServer((socket) => {
     socket.on('data', (data) => {
       const recieved = data.toString().trim();
@@ -14,7 +14,8 @@ export default function mockServer(port = 3000, address = '127.0.0.1', command) 
   server.listen(port, address);
 
   const proto = {
-    stop: () => server.close(),
+    server,
+    stop() { this.server.close(); },
   };
 
   return Object.create(proto);
