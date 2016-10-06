@@ -4,6 +4,7 @@
   "description": "A thin NodeJS wrapper around Denon's Hi-Fi Remote",
   "main": "index.js",
   "scripts": {
+    "build": "del './build' && babel ./lib -d ./build --ignore '**/*.spec.js'",
     "test": "tape -r ./test/setup.js 'lib/**/*.spec.js' | tap-spec --color",
     "test:watch": "tape-watch -w -r ../test/setup.js 'lib/**/*.spec.js' -p tap-spec --color"
   },
