@@ -30,6 +30,7 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.16.3",
     "blue-tape": "^1.0.0",
+    "del-cli": "^0.2.0",
     "eslint": "^3.7.0",
     "eslint-config-adambrgmn": "^0.3.2",
     "eslint-plugin-babel": "^3.3.0",
